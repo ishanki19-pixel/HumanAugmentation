@@ -1,0 +1,130 @@
+
+.heading{
+font-family: 'Monoton', cursive;
+margin: auto;
+text-align: center;
+}
+#title{
+  background-color: #0d335d;
+   color:#fff;
+}
+.navbar-brand{
+   color:#c0e218;
+   background-color: #0d335d;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+img{
+  width: 2000px;
+  height: 500px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 2vw;
+    font-family: 'Dancing Script', cursive;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-75%, -75%);
+}
+.responsive{
+  max-width: 100%;
+  height: auto;
+}
+<style>
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+</style>
+.paragraph{
+  font-family: 'Dancing Script', cursive;
+}
+#carousel{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #0d335d;
+  color: #fff;
+}
+.testimonial-image{
+  width:20% ;
+  margin: 20px;
+  border-radius: 100%;
+}
+.heading{
+  margin-bottom: 5%;
+}
+#History{
+  background-color: #fff;
+  font-family: 'Dancing Script', cursive;
+  font-size: 200%;
+  color: #0d335d;
+  text-align: left;
+  margin: auto auto auto auto;
+  line-height: 2;
+  width: 50%;
+}
+.history{
+  text-align: center;
+}
+style{
+  width: 62px;
+}
+.icons{
+  width: 64px;
+  height: 64px;
+}
+#Card{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #0d335d;
+color: #fff;
+font-family: 'Dancing Script', cursive;
+}
+#techs{
+  color: #0d335d;
+  text-align: left;
+  margin: auto auto auto auto;
+  line-height: 2;
+  font-size: 200%;
+  width: 50%;
+  font-family: 'Dancing Script', cursive;
+}
+@media screen (max-width:900px){
+/*  #techs{
+    font-size: 50%;
+  }
+  #History{
+        font-size: 50%;
+  }*/
+  body{
+    color: lightgreen;
+  }
+}
+#Author{
+  font-family: 'Dancing Script', cursive;
+  text-align: left;
+  padding-top: 70px;
+  padding-left: 50px;
+  color:#0d335d;
+  font-size: 150%;
+}
+.imagess{
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.button1{
+  text-decoration: underline;
+  text-align: center;
+  color:#0d335d;
+}
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
