@@ -1,0 +1,61 @@
+
+body{
+  text-align: center;
+  font-style: italic;
+}
+
+.topcontainer{
+background-color: #E4F9F5;
+position: relative;
+padding-top: 100px;
+}
+.topcloud{
+position: absolute;
+left:300px;
+top:400px;
+}
+.bottomcloud{
+  position: absolute;
+  right:300px;
+  bottom:300px;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-size: 50px;
+font-family: 'Dancing Script', cursive;
+color: #66BFBF;
+line-height: 2;
+}
+h2{
+  color:#66BFBF;
+  font-family: 'Dancing Script', cursive;
+}
+h3{
+  color:#5f939a;
+}
+.middle-container{
+  color: #ead3cb;
+}
+p{
+  color: #2f5d62;
+}
+img{
+  border-radius: 50%;
+}
+.skill-row{
+  text-align: left;
+  margin: auto auto auto auto;
+  width: 50%;
+  line-height: 2;
+}
+.image1{
+  float: left;
+  margin-right: 30px;
+}
+.image2{
+  float: right;
+  margin-left: 30px;
+}
+.image3{
+  margin-left: 10px;
+}
